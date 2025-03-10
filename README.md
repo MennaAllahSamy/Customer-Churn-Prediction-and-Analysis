@@ -4,13 +4,15 @@
 Customer churn prediction is crucial for businesses aiming to retain users and reduce revenue loss. This project leverages **Machine Learning** to predict the likelihood of customer churn based on historical data. The model helps businesses take proactive measures to improve customer retention.  
 
 ## 📂 Project Structure  
-📁 Churn-Customer-Prediction
-│── 📂 data/ # Dataset files (CSV, JSON, or others)
-│── 📂 notebooks/ # Jupyter Notebooks for EDA and model training
-│── 📂 src/ # Source code for preprocessing, model training, and evaluation
-│── 📂 models/ # Saved trained models
-│── 📂 docs/ # Documentation (project reports, API docs, references)
-│── 📜 README.md # Project documentation
+
+📁 **Churn-Customer-Prediction**  
+ ├── 📂 data/  # Dataset files (CSV, JSON, or others)  
+ ├── 📂 notebooks/  # Jupyter Notebooks for EDA and model training  
+ ├── 📂 src/  # Source code for preprocessing, model training, and evaluation  
+ ├── 📂 models/  # Saved trained models  
+ ├── 📂 docs/  # Documentation (project reports, API docs, references)  
+ ├── 📜 README.md  # Project documentation  
+
 
 
 ## 🛠️ Features  
