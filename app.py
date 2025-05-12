@@ -12,7 +12,7 @@ st.set_page_config(page_title="Customer Churn Prediction", layout="centered")
 def load_all():
     # The tuple order must match the dump order:
     # (scaler, svm_model, decision_tree, rf, log_reg)
-    scaler, svm_model, decision_tree, rf, log_reg = joblib.load("ml_models.pkl")
+    scaler, svm_model, decision_tree, rf, log_reg = joblib.load("ML_MODELS.pkl")
     return scaler, svm_model, decision_tree, rf, log_reg
 
 scaler, svm_model, decision_tree, rf, log_reg = load_all()
