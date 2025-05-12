@@ -8,7 +8,7 @@ st.set_page_config(page_title="Customer Churn Prediction", layout="centered")
 # -------------------------------------------------------------------
 # 1) Load scaler + 4 models from ml_model.pkl
 # -------------------------------------------------------------------
-@st.cache(allow_output_mutation=True)
+@st.cache_resource
 def load_all():
     # The tuple order must match the dump order:
     # (scaler, svm_model, decision_tree, rf, log_reg)
