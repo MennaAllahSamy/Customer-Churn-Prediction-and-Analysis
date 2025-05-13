@@ -8,8 +8,6 @@ Customer churn prediction is crucial for businesses aiming to retain users and r
 📁 **Churn-Customer-Prediction**  
  ├── 📂 data/  # Dataset files (CSV, JSON, or others)  
  ├── 📂 notebooks/  # Jupyter Notebooks for EDA and model training  
- ├── 📂 src/  # Source code for preprocessing, model training, and evaluation  
- ├── 📂 models/  # Saved trained models  
  ├── 📂 docs/  # Documentation (project reports, API docs, references)  
  ├── 📜 README.md  # Project documentation  
 
